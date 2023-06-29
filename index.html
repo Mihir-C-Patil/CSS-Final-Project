@@ -10,6 +10,7 @@
     <title>Little Taco Shop</title>
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js" defer=""></script>
   </head>
 
   <body>
@@ -45,8 +46,8 @@
 
 
     <main class="main">
-      <article id="menu" class="main__article menu">
-        <h2 class="menu__h2">Our Menu</h2>
+      <article id="menu" class="main__article">
+        <h2>Our Menu</h2>
         <table class="menu__container">
           <caption class="offscreen">Our Tacos</caption>
           <thead>
@@ -98,7 +99,7 @@
 
     <footer class="footer">
       <p>
-        <span class="nowrap">Copyright &copy;</span>
+        <span class="nowrap">Copyright &copy;<time id="year"></time></span>
         <span class="nowrap">The Little Taco Shop</span>
       </p>
     </footer>

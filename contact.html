@@ -9,6 +9,7 @@
     <title>Contact Us</title>
     <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/main.js" defer=""></script>
   </head>
 
   <body>
@@ -46,9 +47,9 @@
         <p>Phone: <a href="tel:555-555-5555">555-555-5555</a></p>
       </article>
 
-      <article id="contactForm" class="main__article contact">
+      <article id="contactForm" class="main__article">
         <h2 class="contact__h2">Our Contact Form</h2>
-        <form action="https://httpbin.org/get" method="get" class="contact__form">
+        <form action="https://httpbin.org/get" method="get">
           <fieldset class="contact__fieldset">
             <legend class="offscreen">Send Us A Message</legend>
             <p class="contact__p">
@@ -74,7 +75,7 @@
 
     <footer class="footer">
       <p>
-        <span class="nowrap">Copyright &copy;</span>
+        <span class="nowrap">Copyright &copy;<time id="year"></time></span>
         <span class="nowrap">The Little Taco Shop</span>
       </p>
     </footer>

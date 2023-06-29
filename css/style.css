@@ -199,7 +199,7 @@ a:active {
 @keyframes showWelcome {
   0% {
     top: -20px;
-    transform: skew(0deg, -5deg) scaleY(0);
+    transform: skew(0, -5deg) scaleY(0);
   }
 
   80% {
@@ -217,7 +217,7 @@ a:active {
 
 .footer {
   background-color: var(--HEADER-BGCOLOR);
-  bottom: 0;
+  bottom: 0px;
   color: var(--HEADER-COLOR);
   padding: var(--PADDING-TB) var(--PADDING-SIDE);
   position: sticky;
@@ -230,7 +230,7 @@ a:active {
 }
 
 .main__article {
-  margin: var(--MARGIN)
+  margin: var(--MARGIN);
   scroll-margin-top: 6.5rem;
 }
 
