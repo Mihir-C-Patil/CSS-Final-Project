@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /.gitattributes
 /.gitignore
+/Folder.DotSettings
