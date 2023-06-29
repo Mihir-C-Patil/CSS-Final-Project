@@ -49,6 +49,7 @@ textarea {
 
   /* BORDERS*/
   --BORDER: 1px solid var(--BORDER-COLOR);
+  --BORDER-RADIUS: 15px;
 
   /*STANDARD PADDING*/
   --PADDING-TB: 0.25em;
